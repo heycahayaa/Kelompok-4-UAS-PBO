@@ -1,3 +1,6 @@
+# interface.py
+from abc import ABC, abstractmethod
+
 class Baking(ABC):
     @abstractmethod
     def bake(self): pass
@@ -9,4 +12,3 @@ class Packaging(ABC):
 class Labeling(ABC):
     @abstractmethod
     def label(self): pass
-
